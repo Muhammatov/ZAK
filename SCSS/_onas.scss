@@ -1,0 +1,138 @@
+.all_onas{
+     width: 85%;
+     height: auto;
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+
+     .onas_btn{
+          width: 180px;
+          height: 40px;
+          background-color: #00AC73;
+          margin: auto;
+          margin-top: 20px;
+          border-radius: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          a{
+               font-family: 'Inter', sans-serif;
+               color: #fff;
+               font-size: 16px;
+          }
+     }
+     .anos_info{
+          width: 200px;
+          height: auto;
+          margin: auto;
+          margin-top: 10px;
+          display: flex;
+          justify-content: center;
+          .onas{
+               font-size: 50px;
+               font-weight: 600;
+               font-family: 'Inter', sans-serif;
+          }
+     }
+     .onas_about{
+          width: 90%;
+          height: auto;
+          margin: auto;
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          
+
+          .info{
+              width: 90%;
+              height: auto;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 15px;
+              flex-wrap: wrap;
+              margin: auto;
+              margin-top: 15px;
+              gap: 20px;
+
+              img{
+               width: 400px;
+              }
+
+              .anos_text{
+               width: 400px;
+               height: auto;
+               // border: 1px solid red;
+               display: flex;
+               flex-direction: column;
+               gap: 10px;
+
+               .serves{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    display: flex;
+                    
+                    
+                    .ser1{
+                         font-family: 'Inter', sans-serif;
+                         font-weight: 600;
+                         font-size: 20px;
+                         color: #000;
+                    }
+                    .ser3{
+                         width: 100%;
+                         height: 30px;
+                         border: 1px solid grey;
+                         display: flex;
+                    }
+
+                    .nam2{
+                         font-size: 20px;
+                         color: #000;
+                         font-family: 'Inter', sans-serif;
+                         font-weight: 500;
+                    }
+                    .text2{
+                         width: 100%;
+                         font-size: 16px;
+                         font-family: 'Inter', sans-serif;
+                         color: 
+                         #7E7E7E;
+                    }
+               }
+
+              }
+          }
+     }
+
+     
+}
+.cont{
+     width: 80%;
+     height: auto;
+     background-color: #00504D;
+     margin-top: 20px;   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+     flex-wrap: wrap;
+     border-radius: 25px;
+
+     img{
+          width: 400px;
+          height: 60%;
+     }
+     .content2_text{
+          font-size: 30px;
+          font-family: 'Inter', sans-serif;
+          color: #fff;
+          text-align: center;
+          font-weight: 600;
+          
+     }
+}

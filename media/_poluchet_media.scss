@@ -1,0 +1,43 @@
+@media screen and (max-width:800px) {
+     .tovar_boxs {
+          
+          margin-top: 200                                                                                                                                                                                                                       px;
+          
+          .tovar_left {
+               display: none;
+          }
+
+          .tovar_right {
+               margin: auto;
+          }
+
+       
+
+        
+        
+     }
+}
+@media screen and (max-width:650px) {
+     .tovars{
+          .tovar_text{
+               font-size: 35px;
+               
+          }
+     }
+     .tovar_right{
+          .tovar_boxs{
+               display: flex;
+               gap: 4px;
+
+          }
+     }
+}
+@media screen and (max-width:500px) {
+     .tovars{
+          .tovar_right{
+               .tovar_box{
+                    width: 280px;
+               }
+          }
+     }
+}

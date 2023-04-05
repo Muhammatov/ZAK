@@ -1,0 +1,97 @@
+@media screen and (max-width:700px) {
+     .registration  {
+
+          .weyti {
+               font-size: 40px;
+          }
+
+          .regis {
+               .regis_weyti {
+                    .kod_boxs {
+                         width: 100%;
+                         height: auto;
+                         .kod {
+                              display: flex;
+                              width: 90%;
+                              justify-content: space-between;
+                              // gap: 20px;
+
+                              input {
+                                   width: 75px;
+                                   height: 75px;
+                              }
+                         }
+
+                         .problem {
+                              width: 100%;
+                              display: flex;
+                              justify-content: space-between;
+                              padding: 0px 10px;
+                              p {
+                                   width: 90%;
+                                   font-size: 14px;
+                              }
+                              a{
+                                   width: 90%;
+                                   font-size: 14px;
+                              }
+                         }
+                    }
+
+
+               }
+          }
+     }
+     .one{
+          width: 100%;
+     }
+}
+@media screen and (max-width:700px) {
+     .registration  {
+
+          .weyti {
+               font-size: 40px;
+          }
+
+          .regis {
+               .regis_weyti {
+                    .kod_boxs {
+                         width: 100%;
+                         height: auto;
+                         .kod {
+                              display: flex;
+                              width: 90%;
+                              justify-content: center;
+                              gap: 15px;
+                              // gap: 20px;
+
+                              input {
+                                   width: 65px;
+                                   height: 65px;
+                              }
+                         }
+
+                         .problem {
+                              width: 100%;
+                              display: flex;
+                              justify-content: space-between;
+                              padding: 0px 10px;
+                              p {
+                                   width: 90%;
+                                   font-size: 14px;
+                              }
+                              a{
+                                   width: 90%;
+                                   font-size: 14px;
+                              }
+                         }
+                    }
+
+
+               }
+          }
+     }
+     .one{
+          width: 100%;
+     }
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+     font-family: 'Inter', sans-serif;
+}
+
+.registration {
+     width: 600px;
+     height: auto;
+     margin-top: 30px;
+     // border: 1px solid black;
+
+     .weyti {
+          font-size: 55px;
+          font-weight: 700;
+          text-align: center;
+          
+
+     }
+
+     .regis {
+          width: 100%;
+          height: auto;
+          background: #FFFFFF;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+          border-radius: 15px;
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 20px 0px;
+
+          .regis_weyti {
+               width: 82%;
+               height: auto;
+               padding: 10px;
+
+               // Forms strat
+               form {
+                    .login {
+                         font-size: 18px;
+                         font-weight: 600;
+
+                    }
+
+                    input {
+                         width: 90%;
+                         height: 50px;
+                         margin-top: 8px;
+                         border-radius: 15px;
+                         border: 1px solid #7E7E7E;
+                         padding: 0px 10px;
+                         font-family: 'Inter', sans-serif;
+                         font-size: 18px;
+                    }
+               }
+
+               // Form finsh
+               .menya {
+                    width: 85%;
+                    height: 55px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-left: 20px;
+
+                    .input_check {
+                         width: 200px;
+                         height: 40px;
+                         display: flex;
+                         align-items: center;
+                         gap: 10px;
+
+                         .check:checked {
+                              background-color: green;
+                         }
+
+                         .menya_text {
+                              color: #7E7E7E;
+                         }
+                    }
+
+                    .parol {
+                         font-size: 18px;
+                         text-decoration-line: underline;
+                         color: #007AFF;
+                    }
+               }
+
+               .btn1 {
+                    width: 150px;
+                    height: 50px;
+                    background-color: #00AC73;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 20px auto;
+                    border-radius: 15px;
+
+                    a{
+                         display: block;
+                         width: 100%;
+                         height: 100%;
+                         text-align: center;
+                         line-height: 50px;
+                         color: #fff;
+                    }
+               }
+          }
+     }
+}

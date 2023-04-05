@@ -1,0 +1,67 @@
+
+// .one{
+//      width: 00px;
+// }
+.regis_weyti {
+     .kod_text {
+          text-align: center;
+          font-size: 22px;
+          font-family: 'Inter', sans-serif;
+          font-weight: 600;
+     }
+
+     .kod_boxs {
+          width: 90%;
+          height: auto;
+          margin: 20px auto;
+
+          // Kod qismi Boshlandi
+          .kod {
+               width: 90%;
+               height: 90px;
+               margin: 10px auto;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               padding: 5px;
+
+               input {
+                    width: 70px;
+                    height: 70px;
+                    font-size: 50px;
+                    border-radius: 15px;
+                    border: 1px solid #00AC73;
+                    padding: 10px;
+                    background-color:
+                         #EDEDF2;
+               }
+
+               input:hover {
+                    background-color: #fff;
+               }
+          }
+
+          // Kod qismi Tugadi
+          // Problem Qismi boshlandi
+          .problem {
+               width: 80%;
+               height: 30px;
+               margin: 5px auto;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+
+               p {
+                    font-size: 15px;
+                    font-family: 'Inter', sans-serif;
+                    color: grey;
+               }
+
+               a {
+                    color: #00AC73;
+                    font-family: 'Inter', sans-serif;
+
+               }
+          }
+     }
+}

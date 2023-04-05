@@ -1,0 +1,91 @@
+// Pokupayt qismi Boshlandi
+.allpokupayt{
+     width: 90%;
+     height: auto;
+     margin-top: 50px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px 0px;
+
+     .input_text{
+          width: 300px;
+          height: 100px;
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+
+          .pod{
+               width: 120px;
+               height: 30px;
+               background-color: #00AC73;
+               padding: 20px;
+               color: #fff;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-family: 'Inter', sans-serif;
+               border-radius: 15px;
+               font-size: 15px;
+          }
+          .chasto{
+               font-size: 35px;
+               font-family: 'Inter', sans-serif;
+               font-weight: 600;
+          }
+     }
+     .jihozlar{
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;
+          margin-top: 20px;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          // background-color: red;
+          
+
+          .box {
+               width: 250px;
+               height: auto;
+               padding: 20px 0px;
+               border-radius: 30px;
+               box-shadow: 0px 0px 20px rgba(36, 10, 10, 0.12);
+               background-color: #fff;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+
+               img {
+                    width: 200px;
+               }
+
+               .product_text {
+                    width: 85%;
+                    height: 80px;
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .text {
+                         font-size: 15px;
+                         font-family: 'Inter', sans-serif;
+                         color: #7E7E7E;
+                    }
+
+                    .price{
+                         font-family: 'Inter', sans-serif;
+                         color: #00AC73;
+                         font-weight: 600;
+                    }
+               }
+          }
+     }
+}

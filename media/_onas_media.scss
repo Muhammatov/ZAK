@@ -1,0 +1,86 @@
+@media screen and (max-width:1064px) {
+     .all_onas{
+
+
+          .onas_btn{
+               width: 130px;
+
+               a{
+                    font-size: 13px;
+               }
+          }
+
+          .onas_about{
+               .anos_info{
+
+                    .onas{
+                         font-size: 40px;
+                    }
+               }
+
+               .info{
+                    width: 100%;
+                    img{
+                         width: 300px;
+                    }
+               }
+          }
+     } 
+}
+@media screen and (max-width:600px) {
+     .all_onas{
+
+
+          .onas_btn{
+               width: 130px;
+
+               a{
+                    font-size: 13px;
+               }
+          }
+
+          .onas_about{
+               .anos_info{
+
+                    .onas{
+                         font-size: 40px;
+                    }
+               }
+
+               .info{
+                    width: 100%;
+                    img{
+                         width: 70%;
+                    }
+               }
+          }
+     } 
+}
+@media screen and (max-width:1064px) {
+     .cont{
+          width: 90%;
+          height: auto;
+          background-color: #00504D;
+          margin-top: 20px;   
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+          flex-wrap: wrap;
+          border-radius: 25px;
+     
+          img{
+               width: 50%;
+               height: 60%;
+               margin-top: 10px;
+          }
+          .content2_text{
+               font-size: 25px;
+               font-family: 'Inter', sans-serif;
+               color: #fff;
+               text-align: center;
+               font-weight: 600;
+               
+          }
+     }
+}

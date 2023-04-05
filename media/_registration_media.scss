@@ -1,0 +1,54 @@
+@media screen and (max-width:660px) {
+
+     .registration {
+          width: 500px;
+
+          .weyti {
+               font-size: 45px;
+          }
+
+          .regis {
+
+               .regis_weyti {
+                    .menya {
+                         width: 100%;
+
+                         .parol {
+                              font-size: 16px;
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media screen and (max-width:550px) {
+
+     .registration {
+          width: 400px;
+
+          .weyti {
+               font-size: 45px;
+          }
+
+          .regis {
+
+               .regis_weyti {
+                    .menya {
+                         width: 100%;
+
+                         .parol {
+                              font-size: 15px;
+                         }
+                    }
+
+                    .input_check {
+                         .menya_text {
+                              font-size: 16px;
+                              color: orange;
+                         }
+                    }
+               }
+          }
+     }
+}
